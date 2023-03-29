@@ -1,0 +1,23 @@
+{
+  "name": "lerna",
+  "version": "1.0.0",
+  "description": "lerna with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna test echo"
+  },
+  "keywords": [
+    "lerna",
+    "react"
+  ],
+  "author": "abhishek sinha",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-library": "^3.1.1",
+    "lerna": "^6.6.1",
+    "npx": "^10.2.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
